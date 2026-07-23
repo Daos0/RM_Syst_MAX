@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "product-dairy",
+    "kind": "product",
+    "name": "Молочные продукты и яйца",
+    "icon": "🥛",
+    "description": "",
+    "sort_order": 3
+  },
+  "products": [
+    {
+      "normalized_name": "молоко",
+      "name": "Молоко",
+      "department_code": "dairy_eggs",
+      "quantity": 2,
+      "unit": "л",
+      "kind": "product",
+      "category_code": "product-dairy",
+      "icon": "🥛",
+      "description": "",
+      "sort_order": 21
+    },
+    {
+      "normalized_name": "яйца",
+      "name": "Яйца",
+      "department_code": "dairy_eggs",
+      "quantity": 10,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-dairy",
+      "icon": "🥚",
+      "description": "",
+      "sort_order": 22
+    },
+    {
+      "normalized_name": "сыр",
+      "name": "Сыр",
+      "department_code": "dairy_eggs",
+      "quantity": 300,
+      "unit": "г",
+      "kind": "product",
+      "category_code": "product-dairy",
+      "icon": "🧀",
+      "description": "",
+      "sort_order": 23
+    },
+    {
+      "normalized_name": "сливочное масло",
+      "name": "Сливочное масло",
+      "department_code": "dairy_eggs",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-dairy",
+      "icon": "🧈",
+      "description": "",
+      "sort_order": 24
+    },
+    {
+      "normalized_name": "творог",
+      "name": "Творог",
+      "department_code": "dairy_eggs",
+      "quantity": 0.5,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-dairy",
+      "icon": "🥣",
+      "description": "",
+      "sort_order": 25
+    },
+    {
+      "normalized_name": "сметана",
+      "name": "Сметана",
+      "department_code": "dairy_eggs",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-dairy",
+      "icon": "🥣",
+      "description": "",
+      "sort_order": 26
+    },
+    {
+      "normalized_name": "кефир",
+      "name": "Кефир",
+      "department_code": "dairy_eggs",
+      "quantity": 1,
+      "unit": "л",
+      "kind": "product",
+      "category_code": "product-dairy",
+      "icon": "🥛",
+      "description": "",
+      "sort_order": 27
+    },
+    {
+      "normalized_name": "йогурт",
+      "name": "Йогурт",
+      "department_code": "dairy_eggs",
+      "quantity": 4,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-dairy",
+      "icon": "🥣",
+      "description": "",
+      "sort_order": 28
+    },
+    {
+      "normalized_name": "сливки",
+      "name": "Сливки",
+      "department_code": "dairy_eggs",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-dairy",
+      "icon": "🥛",
+      "description": "",
+      "sort_order": 29
+    },
+    {
+      "normalized_name": "ряженка",
+      "name": "Ряженка",
+      "department_code": "dairy_eggs",
+      "quantity": 1,
+      "unit": "л",
+      "kind": "product",
+      "category_code": "product-dairy",
+      "icon": "🥛",
+      "description": "",
+      "sort_order": 30
+    }
+  ],
+  "recipes": []
+}

@@ -1,0 +1,589 @@
+{
+  "category": {
+    "code": "dish-fish",
+    "kind": "dish",
+    "name": "Рыба и морепродукты",
+    "icon": "🐟",
+    "description": "",
+    "sort_order": 4
+  },
+  "products": [],
+  "recipes": [
+    {
+      "code": "baked-salmon",
+      "category_code": "dish-fish",
+      "name": "Лосось в духовке",
+      "normalized_name": "лосось в духовке",
+      "icon": "🐟",
+      "description": "С лимоном и специями",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 31,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "филе лосося",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "лимон",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "cod-batter",
+      "category_code": "dish-fish",
+      "name": "Треска в кляре",
+      "normalized_name": "треска в кляре",
+      "icon": "🐟",
+      "description": "Хрустящая корочка",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 32,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "треска",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "подсолнечное масло",
+              "quantity": 0.15,
+              "unit": "л",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fish-cutlets",
+      "category_code": "dish-fish",
+      "name": "Рыбные котлеты",
+      "normalized_name": "рыбные котлеты",
+      "icon": "🐟",
+      "description": "Нежные домашние котлеты",
+      "yield_label": "Количество",
+      "yield_quantity": 8,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 33,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "треска",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "хлеб",
+              "quantity": 3,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.15,
+              "unit": "л",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fried-cod",
+      "category_code": "dish-fish",
+      "name": "Треска на сковороде",
+      "normalized_name": "треска на сковороде",
+      "icon": "🐟",
+      "description": "Быстрый рыбный ужин",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 34,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "треска",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "подсолнечное масло",
+              "quantity": 0.1,
+              "unit": "л",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "baked-mackerel",
+      "category_code": "dish-fish",
+      "name": "Скумбрия в духовке",
+      "normalized_name": "скумбрия в духовке",
+      "icon": "🐟",
+      "description": "С луком и зеленью",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 35,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "скумбрия",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "shrimp-pasta",
+      "category_code": "dish-fish",
+      "name": "Паста с креветками",
+      "normalized_name": "паста с креветками",
+      "icon": "🦐",
+      "description": "В сливочном соусе",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 36,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "креветки",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "макароны",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сливки",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 100,
+              "unit": "г",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fish-potato-bake",
+      "category_code": "dish-fish",
+      "name": "Рыбная запеканка",
+      "normalized_name": "рыбная запеканка",
+      "icon": "🐟",
+      "description": "С картофелем и сыром",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 37,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "треска",
+              "quantity": 0.7,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 200,
+              "unit": "г",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сливки",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "squid-salad-warm",
+      "category_code": "dish-fish",
+      "name": "Кальмары с овощами",
+      "normalized_name": "кальмары с овощами",
+      "icon": "🦑",
+      "description": "Тёплое основное блюдо",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 38,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "кальмары",
+              "quantity": 2,
+              "unit": "уп.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "замороженные овощи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "соевый соус",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mussels-rice",
+      "category_code": "dish-fish",
+      "name": "Рис с мидиями",
+      "normalized_name": "рис с мидиями",
+      "icon": "🦪",
+      "description": "Морепродукты с овощами",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 39,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "мидии",
+              "quantity": 2,
+              "unit": "уп.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "рис",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "замороженные овощи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "соевый соус",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "herring-potatoes",
+      "category_code": "dish-fish",
+      "name": "Сельдь с картофелем",
+      "normalized_name": "сельдь с картофелем",
+      "icon": "🐟",
+      "description": "Простая домашняя подача",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 40,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "сельдь",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "подсолнечное масло",
+              "quantity": 0.05,
+              "unit": "л",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fish-marinade",
+      "category_code": "dish-fish",
+      "name": "Рыба под маринадом",
+      "normalized_name": "рыба под маринадом",
+      "icon": "🐟",
+      "description": "Треска с овощным маринадом",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 87,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "треска",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "томатная паста",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "уксус",
+              "quantity": 0.05,
+              "unit": "л",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.1,
+              "unit": "кг",
+              "sort_order": 6
+            },
+            {
+              "product_normalized_name": "подсолнечное масло",
+              "quantity": 0.1,
+              "unit": "л",
+              "sort_order": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "pink-salmon-sour-cream",
+      "category_code": "dish-fish",
+      "name": "Горбуша в сметане",
+      "normalized_name": "горбуша в сметане",
+      "icon": "🐟",
+      "description": "Запечённая сочная рыба",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 88,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "горбуша",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "сметана",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 150,
+              "unit": "г",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

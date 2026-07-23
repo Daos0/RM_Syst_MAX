@@ -1,0 +1,12 @@
+services:
+  web:
+    networks:
+      default:
+      rm_web:
+        aliases:
+          - max_web
+
+networks:
+  rm_web:
+    external: true
+    name: ${RM_WEB_NETWORK:-rm_systems_web}

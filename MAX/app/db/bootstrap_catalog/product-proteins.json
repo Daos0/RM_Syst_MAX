@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "product-proteins",
+    "kind": "product",
+    "name": "Мясо, рыба и птица",
+    "icon": "🍗",
+    "description": "",
+    "sort_order": 4
+  },
+  "products": [
+    {
+      "normalized_name": "куриное филе",
+      "name": "Куриное филе",
+      "department_code": "meat_poultry",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-proteins",
+      "icon": "🍗",
+      "description": "",
+      "sort_order": 31
+    },
+    {
+      "normalized_name": "куриный фарш",
+      "name": "Куриный фарш",
+      "department_code": "meat_poultry",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-proteins",
+      "icon": "🍗",
+      "description": "",
+      "sort_order": 32
+    },
+    {
+      "normalized_name": "говядина",
+      "name": "Говядина",
+      "department_code": "meat_poultry",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-proteins",
+      "icon": "🥩",
+      "description": "",
+      "sort_order": 33
+    },
+    {
+      "normalized_name": "говяжий фарш",
+      "name": "Говяжий фарш",
+      "department_code": "meat_poultry",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-proteins",
+      "icon": "🥩",
+      "description": "",
+      "sort_order": 34
+    },
+    {
+      "normalized_name": "свинина",
+      "name": "Свинина",
+      "department_code": "meat_poultry",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-proteins",
+      "icon": "🥩",
+      "description": "",
+      "sort_order": 35
+    },
+    {
+      "normalized_name": "индейка",
+      "name": "Индейка",
+      "department_code": "meat_poultry",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-proteins",
+      "icon": "🍗",
+      "description": "",
+      "sort_order": 36
+    },
+    {
+      "normalized_name": "филе лосося",
+      "name": "Филе лосося",
+      "department_code": "fish_seafood",
+      "quantity": 0.5,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-proteins",
+      "icon": "🐟",
+      "description": "",
+      "sort_order": 37
+    },
+    {
+      "normalized_name": "треска",
+      "name": "Треска",
+      "department_code": "fish_seafood",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-proteins",
+      "icon": "🐟",
+      "description": "",
+      "sort_order": 38
+    },
+    {
+      "normalized_name": "креветки",
+      "name": "Креветки",
+      "department_code": "fish_seafood",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-proteins",
+      "icon": "🦐",
+      "description": "",
+      "sort_order": 39
+    },
+    {
+      "normalized_name": "скумбрия",
+      "name": "Скумбрия",
+      "department_code": "fish_seafood",
+      "quantity": 2,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-proteins",
+      "icon": "🐟",
+      "description": "",
+      "sort_order": 40
+    }
+  ],
+  "recipes": []
+}

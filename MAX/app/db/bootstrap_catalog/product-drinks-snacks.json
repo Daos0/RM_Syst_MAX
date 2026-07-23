@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "product-drinks-snacks",
+    "kind": "product",
+    "name": "Напитки, сладости и снеки",
+    "icon": "🥤",
+    "description": "",
+    "sort_order": 7
+  },
+  "products": [
+    {
+      "normalized_name": "вода",
+      "name": "Вода",
+      "department_code": "drinks",
+      "quantity": 2,
+      "unit": "л",
+      "kind": "product",
+      "category_code": "product-drinks-snacks",
+      "icon": "💧",
+      "description": "",
+      "sort_order": 61
+    },
+    {
+      "normalized_name": "сок",
+      "name": "Сок",
+      "department_code": "drinks",
+      "quantity": 2,
+      "unit": "л",
+      "kind": "product",
+      "category_code": "product-drinks-snacks",
+      "icon": "🧃",
+      "description": "",
+      "sort_order": 62
+    },
+    {
+      "normalized_name": "чай",
+      "name": "Чай",
+      "department_code": "drinks",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-drinks-snacks",
+      "icon": "🍵",
+      "description": "",
+      "sort_order": 63
+    },
+    {
+      "normalized_name": "кофе",
+      "name": "Кофе",
+      "department_code": "drinks",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-drinks-snacks",
+      "icon": "☕",
+      "description": "",
+      "sort_order": 64
+    },
+    {
+      "normalized_name": "лимонад",
+      "name": "Лимонад",
+      "department_code": "drinks",
+      "quantity": 2,
+      "unit": "л",
+      "kind": "product",
+      "category_code": "product-drinks-snacks",
+      "icon": "🍋",
+      "description": "",
+      "sort_order": 65
+    },
+    {
+      "normalized_name": "шоколад",
+      "name": "Шоколад",
+      "department_code": "drinks",
+      "quantity": 2,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-drinks-snacks",
+      "icon": "🍫",
+      "description": "",
+      "sort_order": 66
+    },
+    {
+      "normalized_name": "печенье",
+      "name": "Печенье",
+      "department_code": "drinks",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-drinks-snacks",
+      "icon": "🍪",
+      "description": "",
+      "sort_order": 67
+    },
+    {
+      "normalized_name": "конфеты",
+      "name": "Конфеты",
+      "department_code": "drinks",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-drinks-snacks",
+      "icon": "🍬",
+      "description": "",
+      "sort_order": 68
+    },
+    {
+      "normalized_name": "чипсы",
+      "name": "Чипсы",
+      "department_code": "drinks",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-drinks-snacks",
+      "icon": "🥔",
+      "description": "",
+      "sort_order": 69
+    },
+    {
+      "normalized_name": "орехи",
+      "name": "Орехи",
+      "department_code": "drinks",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-drinks-snacks",
+      "icon": "🥜",
+      "description": "",
+      "sort_order": 70
+    }
+  ],
+  "recipes": []
+}

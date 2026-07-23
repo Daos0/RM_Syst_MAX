@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "supply-other",
+    "kind": "supply",
+    "name": "Другое",
+    "icon": "➕",
+    "description": "Товары для дома и отдыха",
+    "sort_order": 6
+  },
+  "products": [
+    {
+      "normalized_name": "фольга",
+      "name": "Фольга",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-other",
+      "icon": "📦",
+      "description": "Для запекания и хранения",
+      "sort_order": 11
+    },
+    {
+      "normalized_name": "пищевая пленка",
+      "name": "Пищевая плёнка",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-other",
+      "icon": "📦",
+      "description": "Для упаковки продуктов",
+      "sort_order": 12
+    },
+    {
+      "normalized_name": "пакеты для хранения",
+      "name": "Пакеты для хранения",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-other",
+      "icon": "🛍️",
+      "description": "Для продуктов и заморозки",
+      "sort_order": 14
+    },
+    {
+      "normalized_name": "пергамент для выпечки",
+      "name": "Пергамент для выпечки",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-other",
+      "icon": "📜",
+      "description": "Для выпечки и запекания",
+      "sort_order": 13
+    },
+    {
+      "normalized_name": "пакеты с застежкой",
+      "name": "Пакеты с застёжкой",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-other",
+      "icon": "🗂️",
+      "description": "Для герметичного хранения",
+      "sort_order": 15
+    },
+    {
+      "normalized_name": "пакеты для заморозки",
+      "name": "Пакеты для заморозки",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-other",
+      "icon": "❄️",
+      "description": "Для запасов в морозилке",
+      "sort_order": 16
+    },
+    {
+      "normalized_name": "рукав для запекания",
+      "name": "Рукав для запекания",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-other",
+      "icon": "♨️",
+      "description": "Для мяса и овощей",
+      "sort_order": 17
+    },
+    {
+      "normalized_name": "пакеты для льда",
+      "name": "Пакеты для льда",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-other",
+      "icon": "🧊",
+      "description": "Для напитков и поездок",
+      "sort_order": 18
+    },
+    {
+      "normalized_name": "фильтры для кофе",
+      "name": "Фильтры для кофе",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-other",
+      "icon": "☕",
+      "description": "Бумажные фильтры",
+      "sort_order": 19
+    },
+    {
+      "normalized_name": "формочки для выпечки",
+      "name": "Формочки для выпечки",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-other",
+      "icon": "🧁",
+      "description": "Для кексов и маффинов",
+      "sort_order": 20
+    }
+  ],
+  "recipes": []
+}

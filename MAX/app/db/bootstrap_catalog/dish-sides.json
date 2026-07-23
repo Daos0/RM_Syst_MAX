@@ -1,0 +1,583 @@
+{
+  "category": {
+    "code": "dish-sides",
+    "kind": "dish",
+    "name": "Гарниры и овощи",
+    "icon": "🍚",
+    "description": "",
+    "sort_order": 5
+  },
+  "products": [],
+  "recipes": [
+    {
+      "code": "buckwheat-vegetables",
+      "category_code": "dish-sides",
+      "name": "Гречка с овощами",
+      "normalized_name": "гречка с овощами",
+      "icon": "🍚",
+      "description": "Рассыпчатый гарнир",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 43,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "гречка",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "замороженные овощи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mashed-potatoes",
+      "category_code": "dish-sides",
+      "name": "Картофельное пюре",
+      "normalized_name": "картофельное пюре",
+      "icon": "🥔",
+      "description": "Нежное на молоке",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 44,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 1,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.25,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vegetable-risotto",
+      "category_code": "dish-sides",
+      "name": "Ризотто с овощами",
+      "normalized_name": "ризотто с овощами",
+      "icon": "🍚",
+      "description": "Кремовый рис с сыром",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 46,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "рис",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "замороженные овощи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 150,
+              "unit": "г",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "roast-potatoes",
+      "category_code": "dish-sides",
+      "name": "Картофель по-деревенски",
+      "normalized_name": "картофель по-деревенски",
+      "icon": "🍟",
+      "description": "Румяные дольки в духовке",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 48,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 1.2,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "подсолнечное масло",
+              "quantity": 0.1,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "rice-vegetables",
+      "category_code": "dish-sides",
+      "name": "Рис с овощами",
+      "normalized_name": "рис с овощами",
+      "icon": "🍚",
+      "description": "Быстрый универсальный гарнир",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 50,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "рис",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "замороженные овощи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "соевый соус",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vegetable-stew",
+      "category_code": "dish-sides",
+      "name": "Овощное рагу",
+      "normalized_name": "овощное рагу",
+      "icon": "🥘",
+      "description": "Сезонные овощи",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 71,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "капуста",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "помидоры",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "potato-casserole",
+      "category_code": "dish-sides",
+      "name": "Картофельная запеканка",
+      "normalized_name": "картофельная запеканка",
+      "icon": "🥔",
+      "description": "С сырной корочкой",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 72,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 1,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 250,
+              "unit": "г",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сливки",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ratatouille",
+      "category_code": "dish-sides",
+      "name": "Рататуй",
+      "normalized_name": "рататуй",
+      "icon": "🍅",
+      "description": "Запечённые овощи",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 73,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "помидоры",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "кабачки",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "болгарский перец",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "томатная паста",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "баклажаны",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "grilled-vegetables",
+      "category_code": "dish-sides",
+      "name": "Овощи на гриле",
+      "normalized_name": "овощи на гриле",
+      "icon": "🥦",
+      "description": "Для пикника и гарнира",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 75,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "помидоры",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "кабачки",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "баклажаны",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "болгарский перец",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "cauliflower-bake",
+      "category_code": "dish-sides",
+      "name": "Овощи под сыром",
+      "normalized_name": "овощи под сыром",
+      "icon": "🥦",
+      "description": "Запечённая овощная смесь",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 77,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "замороженные овощи",
+              "quantity": 2,
+              "unit": "уп.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 250,
+              "unit": "г",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сливки",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fried-potatoes-mushrooms",
+      "category_code": "dish-sides",
+      "name": "Жареная картошка с грибами",
+      "normalized_name": "жареная картошка с грибами",
+      "icon": "🍄",
+      "description": "Домашняя с шампиньонами",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 89,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 1,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "шампиньоны",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "подсолнечное масло",
+              "quantity": 0.1,
+              "unit": "л",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "barley-mushrooms",
+      "category_code": "dish-sides",
+      "name": "Перловка с грибами",
+      "normalized_name": "перловка с грибами",
+      "icon": "🍄",
+      "description": "Сытная каша с шампиньонами",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 90,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "перловая крупа",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "шампиньоны",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

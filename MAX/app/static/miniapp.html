@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=.70,viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>Личный кабинет</title>
+  <script src="https://st.max.ru/js/max-web-app.js"></script>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="/static/css/miniapp.css?v=20260721-aligned-navigation">
+</head>
+<body>
+  <section class="auth-gate" id="auth-gate" aria-live="polite">
+    <div class="auth-gate-card"><span class="auth-gate-icon"><svg><use href="#person"/></svg></span><strong>Подтверждаем вход</strong><small id="auth-gate-message">Получаем профиль…</small></div>
+  </section>
+  <div class="app booting">
+    <main>
+      <div class="layout">
+        <section class="onboarding" id="home-view">
+          <svg class="corner-sprig sprig-top-left" aria-hidden="true"><use href="#sprig"/></svg>
+          <svg class="corner-sprig sprig-top-right" aria-hidden="true"><use href="#sprig"/></svg>
+          <div class="onboarding-inner">
+            <h1>Начать покупки</h1>
+
+            <div class="goals" role="group" aria-label="Цель использования">
+              <button class="goal active" type="button" data-goal="Для себя"><svg><use href="#person"/></svg><strong>Для себя</strong><small>Личные списки</small></button>
+              <button class="goal" type="button" data-goal="Для семьи"><svg><use href="#users"/></svg><strong>Для семьи</strong><small>Общие покупки</small></button>
+              <button class="goal" type="button" data-goal="Совместно"><svg><use href="#share"/></svg><strong>Совместно</strong><small>Друзья и коллеги</small></button>
+            </div>
+
+            <div class="actions">
+              <button class="join-button" id="open-invite" type="button"><svg><use href="#plus"/></svg>Присоединиться к покупке</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="selection-screen hidden" id="lists-view" aria-labelledby="lists-title">
+          <svg class="corner-sprig sprig-top-left" aria-hidden="true"><use href="#sprig"/></svg>
+          <svg class="corner-sprig sprig-top-right" aria-hidden="true"><use href="#sprig"/></svg>
+          <div class="selection-inner">
+            <div class="selection-head">
+              <div class="selection-heading">
+                <span class="selection-kicker" id="lists-kicker">Выберите список</span>
+                <h2 class="selection-title" id="lists-title">Для себя</h2>
+              </div>
+            </div>
+            <div class="list-options" id="list-options" role="group" aria-label="Варианты списка покупок"></div>
+          </div>
+        </section>
+
+        <section class="shopping-screen hidden" id="shopping-view" aria-labelledby="shopping-title">
+          <svg class="corner-sprig sprig-top-left" aria-hidden="true"><use href="#sprig"/></svg>
+          <svg class="corner-sprig sprig-top-right" aria-hidden="true"><use href="#sprig"/></svg>
+          <div class="shopping-inner">
+            <header class="shopping-head">
+              <span class="shopping-head-spacer wide" aria-hidden="true"></span>
+              <div class="shopping-heading">
+                <span class="shopping-kicker" id="shopping-goal">Для себя</span>
+                <h2 class="shopping-title" id="shopping-title">На неделю</h2>
+              </div>
+              <span class="shopping-head-actions">
+                <button class="shopping-head-button hidden" id="shopping-share" type="button" aria-label="Поделиться совместной покупкой"><svg><use href="#share"/></svg></button>
+                <button class="shopping-head-button" id="shopping-menu" type="button" aria-label="Действия со всем списком"><svg><use href="#list-check"/></svg></button>
+              </span>
+            </header>
+
+            <div class="shopping-progress">
+              <div class="shopping-progress-copy"><strong id="shopping-progress-text">Куплено 0 из 0</strong><span id="shopping-progress-percent">0%</span></div>
+              <div class="shopping-progress-track"><div class="shopping-progress-bar" id="shopping-progress-bar"></div></div>
+            </div>
+
+            <div class="shopping-groups" id="shopping-groups"></div>
+            <div class="shopping-empty hidden" id="shopping-empty"><strong>Список пока пуст</strong><small>Добавьте первый товар — он автоматически попадёт в нужный отдел.</small></div>
+
+            <section class="shopping-state-section hidden" id="unavailable-section">
+              <button class="state-toggle" id="toggle-unavailable" type="button">Нет в наличии <span id="unavailable-count">0</span></button>
+              <div class="state-list" id="unavailable-list"></div>
+            </section>
+
+            <section class="shopping-state-section hidden" id="purchased-section">
+              <button class="state-toggle" id="toggle-purchased" type="button">Куплено <span id="purchased-count">0</span></button>
+              <div class="state-list" id="purchased-list"></div>
+            </section>
+
+          </div>
+        </section>
+
+        <section class="cabinet-screen hidden" id="cabinet-view" aria-labelledby="cabinet-title">
+          <header class="cabinet-head">
+            <div><span>Ваш профиль</span><h2 id="cabinet-title">Личный кабинет</h2></div>
+          </header>
+          <div class="profile-card">
+            <div class="profile-avatar" id="profile-avatar" aria-hidden="true"></div>
+            <div class="profile-copy"><strong id="profile-name"></strong><small id="profile-username"></small></div>
+            <span class="profile-badge" id="profile-platform">MAX</span>
+          </div>
+          <section class="cabinet-block family-cabinet-block">
+            <div class="section-head"><h2>Семейная группа</h2><small id="family-section-note">Общие покупки семьи</small></div>
+            <div class="family-card" id="family-card"></div>
+          </section>
+          <section class="cabinet-guide">
+            <button class="cabinet-guide-toggle" id="cabinet-guide-toggle" type="button" aria-expanded="false" aria-controls="cabinet-guide-content">
+              <span class="cabinet-guide-icon"><svg aria-hidden="true"><use href="#book"/></svg></span>
+              <span><strong>Методичка</strong><small>Как пользоваться списками</small></span>
+              <span class="cabinet-guide-arrow" aria-hidden="true"><svg><use href="#chevron-down"/></svg></span>
+            </button>
+            <div class="cabinet-guide-content hidden" id="cabinet-guide-content">
+              <div><strong>Для себя</strong><p>Личные списки видны только вам — для обычных покупок, планов и заметок.</p></div>
+              <div><strong>Для семьи</strong><p>Постоянные общие списки. Их видят и меняют все участники семейной группы, а владелец управляет её составом.</p></div>
+              <div><strong>Совместно</strong><p>Отдельная покупка для поездки, праздника или работы. Отправьте ссылку или код — приглашённый получит доступ только к этому списку.</p></div>
+              <div><strong>Готовые блюда</strong><p>Выберите блюдо и нужный объём или число порций. Например, для 4 литров борща приложение само рассчитает ингредиенты и добавит их в список покупок.</p></div>
+              <div><strong>Распределите покупки</strong><p>Выберите каждому участнику свой цвет и помечайте им товары. Так сразу видно, кто что берёт; купленное отмечайте галочкой.</p></div>
+              <div><strong>Список останется у команды</strong><p>Если вы уберёте совместный список у себя, у остальных участников он сохранится. Новый владелец назначится автоматически.</p></div>
+              <button id="close-cabinet-guide" type="button">Свернуть</button>
+            </div>
+          </section>
+          <footer class="creator-card">
+            <span>Проект и разработка</span>
+            <strong>Роман Михайлов ✦ RM Systems</strong>
+            <small>Создаю сайты, Mini Apps, чат-ботов и AI-решения для бизнеса. Интегрирую CRM, автоматизирую заявки, продажи и поддержку — от идеи до работающего цифрового продукта.</small>
+            <a href="https://rm-syst.ru/" target="_blank" rel="noopener noreferrer">https://rm-syst.ru/</a>
+          </footer>
+        </section>
+
+      </div>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Навигация Mini App">
+      <button class="nav-button nav-context-button nav-back-button" id="nav-back" type="button"><svg><use href="#arrow-left"/></svg><span>Назад</span></button>
+      <button class="nav-button active" type="button" data-nav="home" aria-current="page"><svg><use href="#home"/></svg><span>Главная</span></button>
+      <button class="nav-button" type="button" data-nav="lists"><svg><use href="#list"/></svg><span>Списки</span></button>
+      <button class="nav-button nav-context-button nav-manage-button" id="open-list-manager" type="button"><span class="nav-manage-icon"><svg><use id="nav-manage-symbol" href="#plus"/></svg></span><span id="nav-manage-label">Добавить список</span></button>
+      <button class="nav-button nav-add-button" id="add-product" type="button"><span class="nav-add-icon"><svg><use href="#plus"/></svg></span><span>Добавить</span></button>
+      <button class="nav-button" type="button" data-nav="cabinet"><svg><use href="#person"/></svg><span>Кабинет</span></button>
+    </nav>
+
+    <div class="toast" id="toast" role="status"></div>
+
+    <div class="modal hidden" id="list-manager-modal" role="dialog" aria-modal="true" aria-labelledby="list-manager-title">
+      <div class="modal-card manager-card">
+        <div class="modal-head">
+          <h3 id="list-manager-title">Ваши списки</h3>
+          <button class="modal-close" id="close-list-manager" type="button" aria-label="Закрыть управление списками">×</button>
+        </div>
+        <p id="list-manager-description">Переименуйте или удалите ненужный список.</p>
+        <div class="manager-list" id="manager-list"></div>
+        <button class="manager-add" id="manager-add-list" type="button"><svg><use href="#plus"/></svg>Новый список</button>
+        <div class="manager-add-goals hidden" id="manager-add-goals" aria-label="Добавить список в раздел">
+          <button type="button" data-manager-add-goal="Для себя"><svg><use href="#person"/></svg><span>Для себя</span></button>
+          <button type="button" data-manager-add-goal="Для семьи"><svg><use href="#users"/></svg><span>Для семьи</span></button>
+          <button type="button" data-manager-add-goal="Совместно"><svg><use href="#share"/></svg><span>Совместно</span></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal hidden" id="custom-list-modal" role="dialog" aria-modal="true" aria-labelledby="custom-list-title">
+      <div class="modal-card">
+        <div class="modal-head">
+          <h3 id="custom-list-title">Добавить список</h3>
+          <button class="modal-close" id="cancel-custom-list" type="button" aria-label="Закрыть">×</button>
+        </div>
+        <p id="custom-list-description">Введите название списка.</p>
+        <input class="custom-name" id="custom-list-name" type="text" maxlength="40" placeholder="Например, Новый год" autocomplete="off">
+        <div class="modal-actions single" id="custom-list-actions">
+          <button class="modal-save" id="save-custom-list" type="button">Добавить</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal hidden" id="list-removal-modal" role="dialog" aria-modal="true" aria-labelledby="list-removal-title">
+      <div class="modal-card">
+        <div class="modal-head">
+          <h3 id="list-removal-title">Удалить список?</h3>
+          <button class="modal-close" id="close-list-removal" type="button" aria-label="Закрыть подтверждение">×</button>
+        </div>
+        <p id="list-removal-description">Список будет удалён.</p>
+        <div class="modal-actions">
+          <button class="modal-delete" id="cancel-list-removal" type="button">Отмена</button>
+          <button class="modal-save danger-button" id="confirm-list-removal" type="button">Удалить</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal hidden" id="list-actions-modal" role="dialog" aria-modal="true" aria-labelledby="list-actions-title">
+      <div class="modal-card list-actions-card">
+        <div class="modal-head">
+          <h3 id="list-actions-title">Действия со списком</h3>
+          <button class="modal-close" id="close-list-actions" type="button" aria-label="Закрыть действия со списком">×</button>
+        </div>
+        <p>Применить действие сразу ко всем товарам.</p>
+        <div class="list-bulk-actions">
+          <button type="button" data-list-status="purchased">
+            <span class="list-bulk-icon"><svg><use href="#check"/></svg></span>
+            <span><strong>Отметить всё купленным</strong><small>Все товары перейдут в раздел «Куплено»</small></span>
+          </button>
+          <button type="button" data-list-status="active">
+            <span class="list-bulk-icon"><svg><use href="#undo-check"/></svg></span>
+            <span><strong>Вернуть всё в покупки</strong><small>Снять отметки и снова показать товары в списке</small></span>
+          </button>
+        </div>
+        <button class="list-actions-dismiss" id="dismiss-list-actions" type="button">Закрыть</button>
+      </div>
+    </div>
+
+    <div class="modal hidden" id="invite-modal" role="dialog" aria-modal="true" aria-labelledby="invite-title">
+      <div class="modal-card invite-card">
+        <div class="modal-head">
+          <h3 id="invite-title">Присоединиться к покупке</h3>
+          <button class="modal-close" id="close-invite" type="button" aria-label="Закрыть приглашение">×</button>
+        </div>
+        <p id="invite-description">Вставьте ссылку или код, который прислал организатор покупки.</p>
+        <label class="invite-field" for="invite-value">
+          <span>Ссылка или код приглашения</span>
+          <input id="invite-value" type="text" maxlength="512" placeholder="https://max.ru/… или код" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false">
+        </label>
+        <button class="invite-submit" id="submit-invite" type="button">Продолжить</button>
+      </div>
+    </div>
+
+    <div class="modal hidden" id="share-list-modal" role="dialog" aria-modal="true" aria-labelledby="share-list-title">
+      <div class="modal-card share-list-card">
+        <div class="modal-head">
+          <h3 id="share-list-title">Поделиться покупкой</h3>
+          <button class="modal-close" id="close-share-list" type="button" aria-label="Закрыть приглашение">×</button>
+        </div>
+        <p id="share-list-description">Создаём безопасное приглашение…</p>
+        <div class="share-code-block hidden" id="share-code-block">
+          <span>Код для ручного ввода</span>
+          <strong id="share-list-code"></strong>
+        </div>
+        <button class="share-primary" id="send-share-list" type="button" disabled><svg><use href="#share"/></svg><span id="send-share-list-label">Отправить</span></button>
+        <button class="share-secondary" id="copy-share-list" type="button" disabled><svg><use href="#copy"/></svg>Скопировать ссылку</button>
+      </div>
+    </div>
+
+    <div class="modal hidden" id="family-invite-modal" role="dialog" aria-modal="true" aria-labelledby="family-invite-title">
+      <div class="modal-card share-list-card">
+        <div class="modal-head">
+          <h3 id="family-invite-title">Пригласить в семью</h3>
+          <button class="modal-close" id="close-family-invite" type="button" aria-label="Закрыть приглашение">×</button>
+        </div>
+        <p id="family-invite-description">Создаём безопасное приглашение…</p>
+        <div class="share-code-block hidden" id="family-code-block">
+          <span>Код для ручного ввода</span>
+          <strong id="family-invite-code"></strong>
+        </div>
+        <button class="share-primary" id="send-family-invite" type="button" disabled><svg><use href="#share"/></svg><span id="send-family-invite-label">Отправить</span></button>
+        <button class="share-secondary" id="copy-family-invite" type="button" disabled><svg><use href="#copy"/></svg>Скопировать ссылку</button>
+      </div>
+    </div>
+
+    <div class="modal hidden" id="family-action-modal" role="dialog" aria-modal="true" aria-labelledby="family-action-title">
+      <div class="modal-card">
+        <div class="modal-head"><h3 id="family-action-title">Исключить участника?</h3></div>
+        <p id="family-action-description">Участник потеряет доступ к семейным спискам.</p>
+        <div class="modal-actions">
+          <button class="modal-delete" id="cancel-family-action" type="button">Отмена</button>
+          <button class="modal-save danger-button" id="confirm-family-action" type="button">Исключить</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal item-editor-modal hidden" id="item-editor-modal" role="dialog" aria-modal="true" aria-labelledby="item-editor-title">
+      <div class="modal-card item-editor-card">
+        <div class="modal-head">
+          <h3 id="item-editor-title">Добавить в список</h3>
+          <button class="modal-close" id="close-item-editor" type="button" aria-label="Закрыть окно добавления">×</button>
+        </div>
+        <p id="item-editor-description">Найдите товар, блюдо или нужное для дома — либо выберите категорию.</p>
+        <form class="catalog-search-form global-catalog-search" id="product-search-form" role="search" autocomplete="off">
+          <div class="item-field wide name-field"><label class="item-field-label" for="product-query">Единый поиск</label>
+            <input id="product-query" name="catalog-query" type="search" maxlength="60" placeholder="Товар, блюдо или для дома" autocomplete="off" autocorrect="off" autocapitalize="none" enterkeyhint="search" spellcheck="false">
+            <div class="product-autocomplete hidden" id="product-autocomplete" role="listbox" aria-label="Результаты единого поиска"></div>
+          </div>
+        </form>
+        <div class="item-kind-tabs" role="tablist" aria-label="Что добавить">
+          <button class="item-kind-tab active" id="item-kind-product" type="button" role="tab" aria-selected="true" data-item-kind="product">Товар</button>
+          <button class="item-kind-tab" id="item-kind-dish" type="button" role="tab" aria-selected="false" data-item-kind="dish">Блюдо</button>
+          <button class="item-kind-tab" id="item-kind-supply" type="button" role="tab" aria-selected="false" data-item-kind="supply">Для дома</button>
+        </div>
+        <div class="item-form product-form" id="product-form">
+          <div class="frequent-label hidden">
+            <span><strong id="product-recommendations-title">Покупаете чаще</strong><small id="product-recommendations-note">По вашей истории покупок</small></span>
+          </div>
+          <div class="suggestion-chips hidden" id="product-suggestions" aria-label="Рекомендации товаров"></div>
+          <div class="product-catalog-head"><strong>Каталог по отделам</strong><small>Выберите категорию</small></div>
+          <div class="category-button-grid" id="product-category-buttons" role="tablist" aria-label="Категории товаров"></div>
+          <div class="selected-category-heading" id="product-selected-category"><span>Выбранная категория</span><strong></strong></div>
+          <div class="product-catalog-grid" id="product-catalog-grid" role="listbox" aria-label="Товары выбранного отдела"></div>
+          <button class="product-config-back hidden" id="back-to-product-catalog" type="button">← Выбрать другой товар</button>
+          <div class="product-details-label">Количество и отдел</div>
+          <label class="item-field"><span class="item-field-label">Количество</span>
+            <input id="item-quantity" type="number" min="0.1" step="0.1" inputmode="decimal">
+          </label>
+          <label class="item-field"><span class="item-field-label">Единица</span>
+            <select id="item-unit">
+              <option value="шт.">шт.</option>
+              <option value="уп.">уп.</option>
+              <option value="кг">кг</option>
+              <option value="г">г</option>
+              <option value="л">л</option>
+              <option value="мл">мл</option>
+            </select>
+          </label>
+          <label class="item-field wide"><span class="item-field-label">Отдел магазина</span>
+            <select id="item-category"></select>
+          </label>
+          <label class="item-field wide"><span class="item-field-label">Примечание</span>
+            <textarea id="item-note" maxlength="100" placeholder="Бренд, сорт или другая деталь"></textarea>
+          </label>
+        </div>
+        <div class="dish-form hidden" id="dish-form">
+          <div class="dish-catalog-head hidden"><strong>Идеи для вас</strong><span id="dish-recommendations-note">По вашей истории покупок</span></div>
+          <div class="dish-recommendations hidden" id="dish-recommendations" role="listbox" aria-label="Идеи блюд для вас"></div>
+          <div class="product-catalog-head"><strong>Каталог блюд</strong><small>Выберите категорию</small></div>
+          <div class="category-button-grid" id="dish-category-buttons" role="tablist" aria-label="Категории блюд"></div>
+          <div class="selected-category-heading" id="dish-selected-category"><span>Выбранная категория</span><strong></strong></div>
+          <div class="dish-options" id="dish-options" role="listbox" aria-label="Блюда выбранной категории"></div>
+          <section class="dish-config hidden" id="dish-config" aria-live="polite">
+            <div class="dish-selected-summary">
+              <span class="dish-selected-icon" id="dish-selected-icon" aria-hidden="true"></span>
+              <span><strong id="dish-selected-name"></strong><small id="dish-selected-note"></small></span>
+              <span class="dish-ready-badge">Выбрано</span>
+            </div>
+            <label class="dish-variant-field" id="dish-variant-field">
+              <span>Вариант блюда</span>
+              <select id="dish-variant"></select>
+            </label>
+            <div class="dish-yield-block">
+              <span class="dish-control-label" id="dish-yield-label">Количество</span>
+              <div class="dish-yield-control">
+                <button id="dish-yield-minus" type="button" aria-label="Уменьшить">−</button>
+                <input id="dish-yield" type="number" inputmode="decimal" aria-label="Количество блюда">
+                <span id="dish-yield-unit">порц.</span>
+                <button id="dish-yield-plus" type="button" aria-label="Увеличить">+</button>
+              </div>
+            </div>
+            <div class="dish-ingredients-head"><strong>Что попадёт в список</strong><span id="dish-ingredients-count"></span></div>
+            <div class="dish-ingredients" id="dish-ingredients"></div>
+            <p class="dish-footnote">Снимите галочку с того, что уже есть дома.</p>
+          </section>
+        </div>
+        <div class="supply-form hidden" id="supply-form">
+          <div class="dish-catalog-head"><strong>Нужное под рукой</strong><span>Дом, гигиена и отдых</span></div>
+          <div class="category-button-grid" id="supply-category-buttons" role="tablist" aria-label="Категории товаров для дома"></div>
+          <div class="selected-category-heading" id="supply-selected-category"><span>Выбранная категория</span><strong></strong></div>
+          <div class="supply-options" id="supply-groups" role="listbox" aria-label="Товары выбранной категории"></div>
+          <section class="supply-config hidden" id="supply-config" aria-live="polite">
+            <div class="dish-selected-summary">
+              <span class="dish-selected-icon" id="supply-selected-icon" aria-hidden="true"></span>
+              <span><strong id="supply-selected-name"></strong><small id="supply-selected-note"></small></span>
+              <span class="dish-ready-badge">Выбрано</span>
+            </div>
+            <div class="supply-parameters">
+              <label class="item-field"><span class="item-field-label">Количество</span>
+                <input id="supply-quantity" type="number" min="1" step="1" inputmode="decimal">
+              </label>
+              <label class="item-field"><span class="item-field-label">Единица</span>
+                <select id="supply-unit">
+                  <option value="шт.">шт.</option>
+                  <option value="уп.">уп.</option>
+                  <option value="кг">кг</option>
+                  <option value="л">л</option>
+                </select>
+              </label>
+            </div>
+            <div class="supply-department"><span>Отдел магазина</span><strong id="supply-category"></strong></div>
+            <label class="supply-note-field" for="supply-note"><span>Примечание</span>
+              <textarea id="supply-note" maxlength="100" placeholder="Размер, количество в упаковке или другая деталь"></textarea>
+            </label>
+          </section>
+        </div>
+        <div class="modal-actions single">
+          <button class="modal-save" id="save-item" type="button">Добавить</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal hidden" id="item-menu-modal" role="dialog" aria-modal="true" aria-labelledby="item-menu-title">
+      <div class="modal-card item-menu-card">
+        <div class="modal-head item-menu-head">
+          <div class="item-menu-copy">
+            <h3 id="item-menu-title">Товар</h3>
+            <p id="item-menu-description">Количество · Отдел</p>
+          </div>
+          <button class="modal-close" id="close-item-menu" type="button" aria-label="Закрыть меню товара">×</button>
+        </div>
+        <section class="item-mark-section" aria-labelledby="item-mark-title">
+          <div class="item-mark-heading">
+            <strong id="item-mark-title">Цветовая метка</strong>
+            <small>(удобно для совместных покупок)</small>
+          </div>
+          <div class="item-mark-options" role="radiogroup" aria-label="Цветовая метка товара">
+            <button class="item-mark-option" type="button" role="radio" data-item-mark="blue" aria-label="Синяя метка">
+              <span class="item-mark-swatch" aria-hidden="true"></span><span>Синяя</span><span class="item-mark-check" aria-hidden="true">✓</span>
+            </button>
+            <button class="item-mark-option" type="button" role="radio" data-item-mark="amber" aria-label="Жёлтая метка">
+              <span class="item-mark-swatch" aria-hidden="true"></span><span>Жёлтая</span><span class="item-mark-check" aria-hidden="true">✓</span>
+            </button>
+            <button class="item-mark-option" type="button" role="radio" data-item-mark="violet" aria-label="Лиловая метка">
+              <span class="item-mark-swatch" aria-hidden="true"></span><span>Лиловая</span><span class="item-mark-check" aria-hidden="true">✓</span>
+            </button>
+            <button class="item-mark-option" type="button" role="radio" data-item-mark="coral" aria-label="Коралловая метка">
+              <span class="item-mark-swatch" aria-hidden="true"></span><span>Коралловая</span><span class="item-mark-check" aria-hidden="true">✓</span>
+            </button>
+            <button class="item-mark-clear" type="button" role="radio" data-item-mark="" aria-label="Без метки">
+              <span class="item-mark-check" aria-hidden="true">✓</span><span class="item-mark-clear-label">Снять метку</span>
+            </button>
+          </div>
+        </section>
+        <div class="item-menu-actions">
+          <button id="edit-item" type="button"><strong>Изменить</strong><small>Количество, отдел или примечание</small></button>
+          <button id="unavailable-item" type="button"><strong id="unavailable-item-title">Нет в наличии</strong><small id="unavailable-item-hint">Перенесём в отдельный раздел списка</small></button>
+          <button class="danger" id="request-delete-item" type="button">Удалить</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal hidden" id="delete-item-modal" role="dialog" aria-modal="true" aria-labelledby="delete-item-title">
+      <div class="modal-card">
+        <div class="modal-head"><h3 id="delete-item-title">Удалить товар?</h3></div>
+        <p id="delete-item-description">Товар будет удалён из списка.</p>
+        <div class="modal-actions">
+          <button class="modal-delete" id="cancel-delete-item" type="button">Отмена</button>
+          <button class="modal-save" id="confirm-delete-item" type="button">Удалить</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <svg aria-hidden="true" style="display:none">
+    <symbol id="sprig" viewBox="0 0 80 80">
+      <path class="sprig-stem" d="M8 72C20 59 26 43 31 28C35 17 44 10 59 7M25 46C18 42 13 37 10 31M31 28C41 27 49 23 55 17"/>
+      <path class="sprig-leaf" d="M10 31C2 20 5 12 14 18C21 23 20 29 10 31ZM25 46C14 45 9 51 17 57C25 62 29 56 25 46ZM31 28C32 17 26 12 20 20C15 28 21 32 31 28ZM55 17C55 7 63 3 68 11C72 19 64 22 55 17ZM43 22C45 12 39 7 33 14C27 22 33 26 43 22Z"/>
+    </symbol>
+    <symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 20a7 7 0 0 1 14 0"/></symbol>
+    <symbol id="users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0M16 5.5a3 3 0 0 1 0 5.8M17 14a5 5 0 0 1 4 4.9"/></symbol>
+    <symbol id="share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"/></symbol>
+    <symbol id="pin" viewBox="0 0 24 24"><path d="M9 4h6l-1 5 4 4v2h-5v6l-1 1-1-1v-6H6v-2l4-4-1-5Z"/></symbol>
+    <symbol id="copy" viewBox="0 0 24 24"><rect x="8" y="8" width="11" height="11" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11a2 2 0 0 1 2 2v16a2.5 2.5 0 0 0-2.5-2.5H4V5.5ZM20 5.5A2.5 2.5 0 0 0 17.5 3H15a2 2 0 0 0-2 2v16a2.5 2.5 0 0 1 2.5-2.5H20V5.5Z"/></symbol>
+    <symbol id="chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="edit" viewBox="0 0 24 24"><path d="M4 20h4l11-11-4-4L4 16v4ZM13.5 6.5l4 4"/></symbol>
+    <symbol id="trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M7 7l1 13h8l1-13M10 11v5M14 11v5"/></symbol>
+    <symbol id="list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r=".5"/><circle cx="4.5" cy="12" r=".5"/><circle cx="4.5" cy="18" r=".5"/></symbol>
+    <symbol id="list-check" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="m7 9 2 2 3-3M14 10h3M7 16h10"/></symbol>
+    <symbol id="undo-check" viewBox="0 0 24 24"><path d="M9 7H5V3M5 7a8 8 0 1 1-1 8M9 12h7"/></symbol>
+    <symbol id="home" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v9h-6v-6H9v6H3Z"/></symbol>
+    <symbol id="arrow-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6M9 12h10"/></symbol>
+    <symbol id="sliders" viewBox="0 0 24 24"><path d="M4 7h4M12 7h8M4 17h8M16 17h4"/><circle cx="10" cy="7" r="2"/><circle cx="14" cy="17" r="2"/></symbol>
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10"/></symbol>
+    <symbol id="unavailable" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+  </svg>
+
+  <script type="module" src="/static/js/app.js?v=20260721-production-notifications"></script>
+</body>
+</html>

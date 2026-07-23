@@ -1,0 +1,745 @@
+{
+  "category": {
+    "code": "dish-soups",
+    "kind": "dish",
+    "name": "Супы",
+    "icon": "🍲",
+    "description": "",
+    "sort_order": 1
+  },
+  "products": [],
+  "recipes": [
+    {
+      "code": "chicken-soup",
+      "category_code": "dish-soups",
+      "name": "Куриный суп",
+      "normalized_name": "куриный суп",
+      "icon": "🍲",
+      "description": "Лёгкий домашний суп",
+      "yield_label": "Объём",
+      "yield_quantity": 4,
+      "yield_unit": "л",
+      "yield_step": 0.5,
+      "sort_order": 1,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "куриное филе",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.7,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "вермишель",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "borscht",
+      "category_code": "dish-soups",
+      "name": "Борщ",
+      "normalized_name": "борщ",
+      "icon": "🥣",
+      "description": "С говядиной и сметаной",
+      "yield_label": "Объём",
+      "yield_quantity": 4,
+      "yield_unit": "л",
+      "yield_step": 0.5,
+      "sort_order": 2,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "С говядиной",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говядина",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "капуста",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "свекла",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 6
+            },
+            {
+              "product_normalized_name": "томатная паста",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 7
+            },
+            {
+              "product_normalized_name": "сметана",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "shchi",
+      "category_code": "dish-soups",
+      "name": "Щи",
+      "normalized_name": "щи",
+      "icon": "🍲",
+      "description": "Капустный суп с говядиной",
+      "yield_label": "Объём",
+      "yield_quantity": 4,
+      "yield_unit": "л",
+      "yield_step": 0.5,
+      "sort_order": 3,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говядина",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "капуста",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "томатная паста",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "solyanka",
+      "category_code": "dish-soups",
+      "name": "Солянка",
+      "normalized_name": "солянка",
+      "icon": "🥣",
+      "description": "Сытный мясной суп",
+      "yield_label": "Объём",
+      "yield_quantity": 4,
+      "yield_unit": "л",
+      "yield_step": 0.5,
+      "sort_order": 4,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говядина",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "вареная колбаса",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сосиски",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "соленые огурцы",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "томатная паста",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            },
+            {
+              "product_normalized_name": "оливки",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 7
+            },
+            {
+              "product_normalized_name": "лимон",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "rassolnik",
+      "category_code": "dish-soups",
+      "name": "Рассольник",
+      "normalized_name": "рассольник",
+      "icon": "🍲",
+      "description": "С перловкой и огурцами",
+      "yield_label": "Объём",
+      "yield_quantity": 4,
+      "yield_unit": "л",
+      "yield_step": 0.5,
+      "sort_order": 5,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говядина",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "перловая крупа",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "соленые огурцы",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "pea-soup",
+      "category_code": "dish-soups",
+      "name": "Гороховый суп",
+      "normalized_name": "гороховый суп",
+      "icon": "🥣",
+      "description": "Густой суп с копчёностями",
+      "yield_label": "Объём",
+      "yield_quantity": 4,
+      "yield_unit": "л",
+      "yield_step": 0.5,
+      "sort_order": 6,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "сухой горох",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "бекон",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "meatball-soup",
+      "category_code": "dish-soups",
+      "name": "Суп с фрикадельками",
+      "normalized_name": "суп с фрикадельками",
+      "icon": "🍲",
+      "description": "Быстрый семейный суп",
+      "yield_label": "Объём",
+      "yield_quantity": 4,
+      "yield_unit": "л",
+      "yield_step": 0.5,
+      "sort_order": 7,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говяжий фарш",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "вермишель",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ukha",
+      "category_code": "dish-soups",
+      "name": "Уха",
+      "normalized_name": "уха",
+      "icon": "🐟",
+      "description": "Домашний рыбный суп",
+      "yield_label": "Объём",
+      "yield_quantity": 4,
+      "yield_unit": "л",
+      "yield_step": 0.5,
+      "sort_order": 8,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "треска",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vegetable-cream-soup",
+      "category_code": "dish-soups",
+      "name": "Овощной крем-суп",
+      "normalized_name": "овощной крем-суп",
+      "icon": "🥦",
+      "description": "Нежный суп со сливками",
+      "yield_label": "Объём",
+      "yield_quantity": 4,
+      "yield_unit": "л",
+      "yield_step": 0.5,
+      "sort_order": 9,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "замороженные овощи",
+              "quantity": 2,
+              "unit": "уп.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сливки",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kharcho",
+      "category_code": "dish-soups",
+      "name": "Харчо",
+      "normalized_name": "харчо",
+      "icon": "🍲",
+      "description": "Пряный суп с говядиной",
+      "yield_label": "Объём",
+      "yield_quantity": 4,
+      "yield_unit": "л",
+      "yield_step": 0.5,
+      "sort_order": 10,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говядина",
+              "quantity": 0.7,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "рис",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.25,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "томатная паста",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "чеснок",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            },
+            {
+              "product_normalized_name": "грецкие орехи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 7
+            },
+            {
+              "product_normalized_name": "соус ткемали",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "okroshka-kvass",
+      "category_code": "dish-soups",
+      "name": "Окрошка на квасе",
+      "normalized_name": "окрошка на квасе",
+      "icon": "🥣",
+      "description": "Холодный летний суп",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 81,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "огурцы",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "редис",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "вареная колбаса",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "квас",
+              "quantity": 1.5,
+              "unit": "л",
+              "sort_order": 6
+            },
+            {
+              "product_normalized_name": "сметана",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 7
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "lagman",
+      "category_code": "dish-soups",
+      "name": "Лагман",
+      "normalized_name": "лагман",
+      "icon": "🍜",
+      "description": "Густой суп с мясом и лапшой",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 82,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говядина",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "лапша для лагмана",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "помидоры",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "болгарский перец",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "зеленая редька",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 6
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 7
+            },
+            {
+              "product_normalized_name": "чеснок",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 8
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

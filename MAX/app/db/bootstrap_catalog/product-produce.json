@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "product-produce",
+    "kind": "product",
+    "name": "Овощи и фрукты",
+    "icon": "🥕",
+    "description": "",
+    "sort_order": 1
+  },
+  "products": [
+    {
+      "normalized_name": "помидоры",
+      "name": "Помидоры",
+      "department_code": "produce",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-produce",
+      "icon": "🍅",
+      "description": "",
+      "sort_order": 1
+    },
+    {
+      "normalized_name": "огурцы",
+      "name": "Огурцы",
+      "department_code": "produce",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-produce",
+      "icon": "🥒",
+      "description": "",
+      "sort_order": 2
+    },
+    {
+      "normalized_name": "бананы",
+      "name": "Бананы",
+      "department_code": "produce",
+      "quantity": 6,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-produce",
+      "icon": "🍌",
+      "description": "",
+      "sort_order": 3
+    },
+    {
+      "normalized_name": "яблоки",
+      "name": "Яблоки",
+      "department_code": "produce",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-produce",
+      "icon": "🍎",
+      "description": "",
+      "sort_order": 4
+    },
+    {
+      "normalized_name": "картофель",
+      "name": "Картофель",
+      "department_code": "produce",
+      "quantity": 2,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-produce",
+      "icon": "🥔",
+      "description": "",
+      "sort_order": 5
+    },
+    {
+      "normalized_name": "лук",
+      "name": "Лук",
+      "department_code": "produce",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-produce",
+      "icon": "🧅",
+      "description": "",
+      "sort_order": 6
+    },
+    {
+      "normalized_name": "морковь",
+      "name": "Морковь",
+      "department_code": "produce",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-produce",
+      "icon": "🥕",
+      "description": "",
+      "sort_order": 7
+    },
+    {
+      "normalized_name": "капуста",
+      "name": "Капуста",
+      "department_code": "produce",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-produce",
+      "icon": "🥬",
+      "description": "",
+      "sort_order": 8
+    },
+    {
+      "normalized_name": "свекла",
+      "name": "Свёкла",
+      "department_code": "produce",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-produce",
+      "icon": "🟣",
+      "description": "",
+      "sort_order": 9
+    },
+    {
+      "normalized_name": "зелень",
+      "name": "Зелень",
+      "department_code": "produce",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-produce",
+      "icon": "🌿",
+      "description": "",
+      "sort_order": 10
+    }
+  ],
+  "recipes": []
+}

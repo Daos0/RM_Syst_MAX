@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "product-other",
+    "kind": "product",
+    "name": "Другое",
+    "icon": "➕",
+    "description": "",
+    "sort_order": 8
+  },
+  "products": [
+    {
+      "normalized_name": "кетчуп",
+      "name": "Кетчуп",
+      "department_code": "sauces_spices",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-other",
+      "icon": "🍅",
+      "description": "",
+      "sort_order": 71
+    },
+    {
+      "normalized_name": "майонез",
+      "name": "Майонез",
+      "department_code": "sauces_spices",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-other",
+      "icon": "🫙",
+      "description": "",
+      "sort_order": 72
+    },
+    {
+      "normalized_name": "соевый соус",
+      "name": "Соевый соус",
+      "department_code": "sauces_spices",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-other",
+      "icon": "🫙",
+      "description": "",
+      "sort_order": 73
+    },
+    {
+      "normalized_name": "горчица",
+      "name": "Горчица",
+      "department_code": "sauces_spices",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-other",
+      "icon": "🟡",
+      "description": "",
+      "sort_order": 74
+    },
+    {
+      "normalized_name": "специи",
+      "name": "Специи",
+      "department_code": "sauces_spices",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-other",
+      "icon": "🌶️",
+      "description": "",
+      "sort_order": 75
+    },
+    {
+      "normalized_name": "зеленый горошек",
+      "name": "Зелёный горошек",
+      "department_code": "sauces_spices",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-other",
+      "icon": "🫛",
+      "description": "",
+      "sort_order": 76
+    },
+    {
+      "normalized_name": "кукуруза консервированная",
+      "name": "Кукуруза консервированная",
+      "department_code": "sauces_spices",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-other",
+      "icon": "🌽",
+      "description": "",
+      "sort_order": 77
+    },
+    {
+      "normalized_name": "тунец консервированный",
+      "name": "Тунец консервированный",
+      "department_code": "sauces_spices",
+      "quantity": 2,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-other",
+      "icon": "🥫",
+      "description": "",
+      "sort_order": 78
+    },
+    {
+      "normalized_name": "сухофрукты",
+      "name": "Сухофрукты",
+      "department_code": "sauces_spices",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-other",
+      "icon": "🍇",
+      "description": "",
+      "sort_order": 79
+    },
+    {
+      "normalized_name": "крекеры",
+      "name": "Крекеры",
+      "department_code": "sauces_spices",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-other",
+      "icon": "🧇",
+      "description": "",
+      "sort_order": 80
+    }
+  ],
+  "recipes": []
+}

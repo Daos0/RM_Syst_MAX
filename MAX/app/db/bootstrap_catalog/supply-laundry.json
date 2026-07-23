@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "supply-laundry",
+    "kind": "supply",
+    "name": "Стирка и одежда",
+    "icon": "🧺",
+    "description": "Бытовая химия",
+    "sort_order": 3
+  },
+  "products": [
+    {
+      "normalized_name": "капсулы для стирки",
+      "name": "Капсулы для стирки",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-laundry",
+      "icon": "🫧",
+      "description": "Готовая дозировка",
+      "sort_order": 33
+    },
+    {
+      "normalized_name": "стиральный порошок",
+      "name": "Стиральный порошок",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-laundry",
+      "icon": "🧺",
+      "description": "Для основного запаса",
+      "sort_order": 31
+    },
+    {
+      "normalized_name": "гель для стирки",
+      "name": "Гель для стирки",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-laundry",
+      "icon": "🧴",
+      "description": "Для машинной стирки",
+      "sort_order": 32
+    },
+    {
+      "normalized_name": "кондиционер для белья",
+      "name": "Кондиционер для белья",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-laundry",
+      "icon": "🌸",
+      "description": "Мягкость и аромат",
+      "sort_order": 34
+    },
+    {
+      "normalized_name": "пятновыводитель",
+      "name": "Пятновыводитель",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-laundry",
+      "icon": "✨",
+      "description": "Для сложных пятен",
+      "sort_order": 35
+    },
+    {
+      "normalized_name": "отбеливатель",
+      "name": "Отбеливатель",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-laundry",
+      "icon": "⬜",
+      "description": "Для белого белья",
+      "sort_order": 36
+    },
+    {
+      "normalized_name": "салфетки-ловушки цвета",
+      "name": "Салфетки-ловушки цвета",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-laundry",
+      "icon": "🎨",
+      "description": "Защита от окрашивания",
+      "sort_order": 37
+    },
+    {
+      "normalized_name": "мешок для стирки",
+      "name": "Мешок для стирки",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-laundry",
+      "icon": "👜",
+      "description": "Для деликатных вещей",
+      "sort_order": 38
+    },
+    {
+      "normalized_name": "ролик для одежды",
+      "name": "Ролик для одежды",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-laundry",
+      "icon": "🧹",
+      "description": "Удаляет шерсть и ворс",
+      "sort_order": 39
+    },
+    {
+      "normalized_name": "прищепки",
+      "name": "Прищепки",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-laundry",
+      "icon": "🧷",
+      "description": "Для сушки белья",
+      "sort_order": 40
+    }
+  ],
+  "recipes": []
+}

@@ -1,0 +1,637 @@
+{
+  "category": {
+    "code": "dish-meat",
+    "kind": "dish",
+    "name": "Мясо и птица",
+    "icon": "🍗",
+    "description": "",
+    "sort_order": 3
+  },
+  "products": [],
+  "recipes": [
+    {
+      "code": "chicken-cutlets",
+      "category_code": "dish-meat",
+      "name": "Куриные котлеты",
+      "normalized_name": "куриные котлеты",
+      "icon": "🍗",
+      "description": "Сочные домашние котлеты",
+      "yield_label": "Количество",
+      "yield_quantity": 8,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 21,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "куриный фарш",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "хлеб",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.15,
+              "unit": "л",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "сухари",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "meatballs",
+      "category_code": "dish-meat",
+      "name": "Тефтели",
+      "normalized_name": "тефтели",
+      "icon": "🍲",
+      "description": "В томатном соусе",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 22,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говяжий фарш",
+              "quantity": 0.7,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "рис",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "томатная паста",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "beef-stroganoff",
+      "category_code": "dish-meat",
+      "name": "Бефстроганов",
+      "normalized_name": "бефстроганов",
+      "icon": "🥩",
+      "description": "Говядина в сливочном соусе",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 23,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говядина",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сметана",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.05,
+              "unit": "кг",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "goulash",
+      "category_code": "dish-meat",
+      "name": "Гуляш",
+      "normalized_name": "гуляш",
+      "icon": "🥩",
+      "description": "Мясо с густой подливой",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 24,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говядина",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "томатная паста",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.05,
+              "unit": "кг",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "roast-chicken",
+      "category_code": "dish-meat",
+      "name": "Курица в духовке",
+      "normalized_name": "курица в духовке",
+      "icon": "🍗",
+      "description": "С картофелем и специями",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 25,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "куриные голени",
+              "quantity": 1.2,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 1,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "french-meat",
+      "category_code": "dish-meat",
+      "name": "Мясо по-французски",
+      "normalized_name": "мясо по-французски",
+      "icon": "🥩",
+      "description": "Запечённое с сыром",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 26,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "свинина",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 250,
+              "unit": "г",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "майонез",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "pork-chops",
+      "category_code": "dish-meat",
+      "name": "Свиные отбивные",
+      "normalized_name": "свиные отбивные",
+      "icon": "🥩",
+      "description": "Румяные отбивные",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 27,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "свинина",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "cabbage-rolls",
+      "category_code": "dish-meat",
+      "name": "Голубцы",
+      "normalized_name": "голубцы",
+      "icon": "🥬",
+      "description": "С мясом и рисом",
+      "yield_label": "Количество",
+      "yield_quantity": 8,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 28,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говяжий фарш",
+              "quantity": 0.7,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "капуста",
+              "quantity": 1,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "рис",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "томатная паста",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "beef-cutlets",
+      "category_code": "dish-meat",
+      "name": "Домашние котлеты",
+      "normalized_name": "домашние котлеты",
+      "icon": "🥩",
+      "description": "Из говяжьего фарша",
+      "yield_label": "Количество",
+      "yield_quantity": 8,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 29,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говяжий фарш",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "хлеб",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.15,
+              "unit": "л",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "turkey-cutlets",
+      "category_code": "dish-meat",
+      "name": "Котлеты из индейки",
+      "normalized_name": "котлеты из индейки",
+      "icon": "🍗",
+      "description": "Нежные и сочные",
+      "yield_label": "Количество",
+      "yield_quantity": 8,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 30,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "индейка",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сухари",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chicken-kiev",
+      "category_code": "dish-meat",
+      "name": "Котлета по-киевски",
+      "normalized_name": "котлета по-киевски",
+      "icon": "🍗",
+      "description": "Куриное филе с зелёным маслом",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 85,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "куриное филе",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.1,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "панировочные сухари",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chakhokhbili",
+      "category_code": "dish-meat",
+      "name": "Чахохбили",
+      "normalized_name": "чахохбили",
+      "icon": "🍗",
+      "description": "Курица с томатами по-грузински",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 86,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "куриные голени",
+              "quantity": 1.2,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "помидоры",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "чеснок",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 2,
+              "unit": "уп.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

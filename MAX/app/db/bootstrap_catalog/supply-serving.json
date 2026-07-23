@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "supply-serving",
+    "kind": "supply",
+    "name": "Кухня и сервировка",
+    "icon": "🍽️",
+    "description": "Товары для дома и отдыха",
+    "sort_order": 1
+  },
+  "products": [
+    {
+      "normalized_name": "бумажные салфетки",
+      "name": "Бумажные салфетки",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-serving",
+      "icon": "🧻",
+      "description": "Для стола и сервировки",
+      "sort_order": 1
+    },
+    {
+      "normalized_name": "влажные салфетки",
+      "name": "Влажные салфетки",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-serving",
+      "icon": "💧",
+      "description": "Для рук и поверхностей",
+      "sort_order": 2
+    },
+    {
+      "normalized_name": "бумажные полотенца",
+      "name": "Бумажные полотенца",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-serving",
+      "icon": "🧻",
+      "description": "Кухонный расходник",
+      "sort_order": 3
+    },
+    {
+      "normalized_name": "одноразовые тарелки",
+      "name": "Одноразовые тарелки",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-serving",
+      "icon": "🍽️",
+      "description": "Набор для компании",
+      "sort_order": 4
+    },
+    {
+      "normalized_name": "одноразовые стаканы",
+      "name": "Одноразовые стаканы",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-serving",
+      "icon": "🥤",
+      "description": "Набор для напитков",
+      "sort_order": 5
+    },
+    {
+      "normalized_name": "одноразовые приборы",
+      "name": "Одноразовые приборы",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-serving",
+      "icon": "🍴",
+      "description": "Вилки, ложки и ножи",
+      "sort_order": 6
+    },
+    {
+      "normalized_name": "одноразовые миски",
+      "name": "Одноразовые миски",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-serving",
+      "icon": "🥣",
+      "description": "Для салатов и горячего",
+      "sort_order": 7
+    },
+    {
+      "normalized_name": "трубочки для напитков",
+      "name": "Трубочки для напитков",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-serving",
+      "icon": "🥤",
+      "description": "Для холодных напитков",
+      "sort_order": 8
+    },
+    {
+      "normalized_name": "одноразовая скатерть",
+      "name": "Одноразовая скатерть",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-serving",
+      "icon": "🟩",
+      "description": "Защита поверхности стола",
+      "sort_order": 9
+    },
+    {
+      "normalized_name": "контейнеры для еды",
+      "name": "Контейнеры для еды",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-serving",
+      "icon": "🍱",
+      "description": "Для порций и остатков",
+      "sort_order": 10
+    }
+  ],
+  "recipes": []
+}

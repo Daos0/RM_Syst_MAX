@@ -1,0 +1,583 @@
+{
+  "category": {
+    "code": "dish-breakfast",
+    "kind": "dish",
+    "name": "Завтраки и каши",
+    "icon": "🥣",
+    "description": "",
+    "sort_order": 6
+  },
+  "products": [],
+  "recipes": [
+    {
+      "code": "syrniki",
+      "category_code": "dish-breakfast",
+      "name": "Сырники",
+      "normalized_name": "сырники",
+      "icon": "🥞",
+      "description": "Творожный завтрак",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 51,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "творог",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.08,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сметана",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "blini",
+      "category_code": "dish-breakfast",
+      "name": "Блины",
+      "normalized_name": "блины",
+      "icon": "🥞",
+      "description": "Тонкие на молоке",
+      "yield_label": "Количество",
+      "yield_quantity": 12,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 52,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "На молоке",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.5,
+              "unit": "л",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.25,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.05,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "подсолнечное масло",
+              "quantity": 0.05,
+              "unit": "л",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "oatmeal",
+      "category_code": "dish-breakfast",
+      "name": "Овсяная каша",
+      "normalized_name": "овсяная каша",
+      "icon": "🥣",
+      "description": "На молоке",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 53,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "овсянка",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 1,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.05,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "semolina",
+      "category_code": "dish-breakfast",
+      "name": "Манная каша",
+      "normalized_name": "манная каша",
+      "icon": "🥣",
+      "description": "Нежная без комочков",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 54,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "манная крупа",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 1,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.05,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "millet-pumpkin",
+      "category_code": "dish-breakfast",
+      "name": "Пшённая каша с тыквой",
+      "normalized_name": "пшенная каша с тыквой",
+      "icon": "🎃",
+      "description": "Сладкая молочная каша",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 55,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "пшено",
+              "quantity": 0.25,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "тыква",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 1,
+              "unit": "л",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.08,
+              "unit": "кг",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "rice-porridge",
+      "category_code": "dish-breakfast",
+      "name": "Рисовая каша",
+      "normalized_name": "рисовая каша",
+      "icon": "🥣",
+      "description": "Молочная классика",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 56,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "рис",
+              "quantity": 0.25,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 1,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.05,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "omelette",
+      "category_code": "dish-breakfast",
+      "name": "Омлет",
+      "normalized_name": "омлет",
+      "icon": "🍳",
+      "description": "Пышный на молоке",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 57,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 8,
+              "unit": "шт.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.3,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 100,
+              "unit": "г",
+              "sort_order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fried-eggs-tomatoes",
+      "category_code": "dish-breakfast",
+      "name": "Яичница с помидорами",
+      "normalized_name": "яичница с помидорами",
+      "icon": "🍳",
+      "description": "Быстрый горячий завтрак",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 58,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 8,
+              "unit": "шт.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "помидоры",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "cottage-casserole",
+      "category_code": "dish-breakfast",
+      "name": "Творожная запеканка",
+      "normalized_name": "творожная запеканка",
+      "icon": "🍰",
+      "description": "Нежная запеканка к чаю",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 59,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "творог",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 3,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "манная крупа",
+              "quantity": 0.1,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.12,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сметана",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "draniki",
+      "category_code": "dish-breakfast",
+      "name": "Драники",
+      "normalized_name": "драники",
+      "icon": "🥔",
+      "description": "Картофельные оладьи",
+      "yield_label": "Количество",
+      "yield_quantity": 8,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 60,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 1,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.1,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сметана",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "buckwheat-porridge",
+      "category_code": "dish-breakfast",
+      "name": "Гречневая каша",
+      "normalized_name": "гречневая каша",
+      "icon": "🥣",
+      "description": "Молочная домашняя каша",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 91,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "гречка",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 1,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.05,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "lazy-vareniki",
+      "category_code": "dish-breakfast",
+      "name": "Ленивые вареники",
+      "normalized_name": "ленивые вареники",
+      "icon": "🥣",
+      "description": "Творожный завтрак",
+      "yield_label": "Порции",
+      "yield_quantity": 4,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 92,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "творог",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.05,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сметана",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

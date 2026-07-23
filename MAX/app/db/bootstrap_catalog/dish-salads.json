@@ -1,0 +1,752 @@
+{
+  "category": {
+    "code": "dish-salads",
+    "kind": "dish",
+    "name": "Салаты",
+    "icon": "🥗",
+    "description": "",
+    "sort_order": 2
+  },
+  "products": [],
+  "recipes": [
+    {
+      "code": "olivier",
+      "category_code": "dish-salads",
+      "name": "Оливье",
+      "normalized_name": "оливье",
+      "icon": "🥗",
+      "description": "Два домашних варианта",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 11,
+      "variants": [
+        {
+          "code": "sausage",
+          "name": "С колбасой",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.35,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "вареная колбаса",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "соленые огурцы",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "зеленый горошек",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            },
+            {
+              "product_normalized_name": "майонез",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 7
+            }
+          ]
+        },
+        {
+          "code": "chicken",
+          "name": "С курицей",
+          "sort_order": 2,
+          "ingredients": [
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.35,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "куриное филе",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "соленые огурцы",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "зеленый горошек",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            },
+            {
+              "product_normalized_name": "майонез",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinaigrette",
+      "category_code": "dish-salads",
+      "name": "Винегрет",
+      "normalized_name": "винегрет",
+      "icon": "🥗",
+      "description": "Овощной салат",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 12,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "свекла",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "соленые огурцы",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "зеленый горошек",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "подсолнечное масло",
+              "quantity": 0.1,
+              "unit": "л",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "herring-coat",
+      "category_code": "dish-salads",
+      "name": "Сельдь под шубой",
+      "normalized_name": "сельдь под шубой",
+      "icon": "🐟",
+      "description": "Слоёный праздничный салат",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 13,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "сельдь",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.35,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "свекла",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 3,
+              "unit": "шт.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "майонез",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "caesar-chicken",
+      "category_code": "dish-salads",
+      "name": "Цезарь с курицей",
+      "normalized_name": "цезарь с курицей",
+      "icon": "🥗",
+      "description": "Салат с курицей и сыром",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 14,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "куриное филе",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "салат романо",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "помидоры",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 150,
+              "unit": "г",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сухари",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "соус цезарь",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "crab-salad",
+      "category_code": "dish-salads",
+      "name": "Крабовый салат",
+      "normalized_name": "крабовый салат",
+      "icon": "🦀",
+      "description": "С кукурузой и яйцом",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 15,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "крабовые палочки",
+              "quantity": 2,
+              "unit": "уп.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "кукуруза консервированная",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "рис",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "огурцы",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "майонез",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "greek-salad",
+      "category_code": "dish-salads",
+      "name": "Греческий салат",
+      "normalized_name": "греческий салат",
+      "icon": "🥗",
+      "description": "Свежие овощи и сыр",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 16,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "помидоры",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "огурцы",
+              "quantity": 0.35,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 250,
+              "unit": "г",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.1,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "оливковое масло",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "болгарский перец",
+              "quantity": 0.25,
+              "unit": "кг",
+              "sort_order": 6
+            },
+            {
+              "product_normalized_name": "оливки",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mimosa",
+      "category_code": "dish-salads",
+      "name": "Мимоза",
+      "normalized_name": "мимоза",
+      "icon": "🥗",
+      "description": "Слоёный салат с рыбой",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 17,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "тунец консервированный",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 5,
+              "unit": "шт.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сыр",
+              "quantity": 150,
+              "unit": "г",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "майонез",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tuna-salad",
+      "category_code": "dish-salads",
+      "name": "Салат с тунцом",
+      "normalized_name": "салат с тунцом",
+      "icon": "🐟",
+      "description": "Лёгкий белковый салат",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 18,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "тунец консервированный",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "огурцы",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "помидоры",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "кукуруза консервированная",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fresh-salad",
+      "category_code": "dish-salads",
+      "name": "Свежий овощной салат",
+      "normalized_name": "свежий овощной салат",
+      "icon": "🥒",
+      "description": "Помидоры, огурцы и зелень",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 19,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "помидоры",
+              "quantity": 0.45,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "огурцы",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.1,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "подсолнечное масло",
+              "quantity": 0.1,
+              "unit": "л",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "stolichny",
+      "category_code": "dish-salads",
+      "name": "Столичный салат",
+      "normalized_name": "столичный салат",
+      "icon": "🥗",
+      "description": "С курицей и огурцами",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 20,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "куриное филе",
+              "quantity": 0.35,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.35,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "соленые огурцы",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "зеленый горошек",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "майонез",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tashkent-salad",
+      "category_code": "dish-salads",
+      "name": "Салат «Ташкент»",
+      "normalized_name": "салат «ташкент»",
+      "icon": "🥗",
+      "description": "С говядиной и зелёной редькой",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 83,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "говядина",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "зеленая редька",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 3,
+              "unit": "шт.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "майонез",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "зелень",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "korean-carrots",
+      "category_code": "dish-salads",
+      "name": "Морковь по-корейски",
+      "normalized_name": "морковь по-корейски",
+      "icon": "🥕",
+      "description": "Пряная домашняя закуска",
+      "yield_label": "Масса",
+      "yield_quantity": 1,
+      "yield_unit": "кг",
+      "yield_step": 0.5,
+      "sort_order": 84,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "морковь",
+              "quantity": 1,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "чеснок",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "уксус",
+              "quantity": 0.05,
+              "unit": "л",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "подсолнечное масло",
+              "quantity": 0.1,
+              "unit": "л",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "специи",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

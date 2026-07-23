@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "supply-hygiene",
+    "kind": "supply",
+    "name": "Ванная и гигиена",
+    "icon": "🧴",
+    "description": "Гигиена",
+    "sort_order": 4
+  },
+  "products": [
+    {
+      "normalized_name": "туалетная бумага",
+      "name": "Туалетная бумага",
+      "department_code": "hygiene",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-hygiene",
+      "icon": "🧻",
+      "description": "Базовый запас",
+      "sort_order": 41
+    },
+    {
+      "normalized_name": "зубная паста",
+      "name": "Зубная паста",
+      "department_code": "hygiene",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "supply",
+      "category_code": "supply-hygiene",
+      "icon": "🦷",
+      "description": "Ежедневная гигиена",
+      "sort_order": 44
+    },
+    {
+      "normalized_name": "жидкое мыло",
+      "name": "Жидкое мыло",
+      "department_code": "hygiene",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-hygiene",
+      "icon": "🧼",
+      "description": "Для ежедневного мытья рук",
+      "sort_order": 42
+    },
+    {
+      "normalized_name": "антисептик для рук",
+      "name": "Антисептик для рук",
+      "department_code": "hygiene",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-hygiene",
+      "icon": "🧴",
+      "description": "Для дома и дороги",
+      "sort_order": 43
+    },
+    {
+      "normalized_name": "зубные щетки",
+      "name": "Зубные щётки",
+      "department_code": "hygiene",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-hygiene",
+      "icon": "🪥",
+      "description": "Личный комплект",
+      "sort_order": 45
+    },
+    {
+      "normalized_name": "шампунь",
+      "name": "Шампунь",
+      "department_code": "hygiene",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-hygiene",
+      "icon": "🧴",
+      "description": "Уход за волосами",
+      "sort_order": 46
+    },
+    {
+      "normalized_name": "гель для душа",
+      "name": "Гель для душа",
+      "department_code": "hygiene",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-hygiene",
+      "icon": "🚿",
+      "description": "Для ежедневного ухода",
+      "sort_order": 47
+    },
+    {
+      "normalized_name": "ватные диски",
+      "name": "Ватные диски",
+      "department_code": "hygiene",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-hygiene",
+      "icon": "⚪",
+      "description": "Для ухода за кожей",
+      "sort_order": 48
+    },
+    {
+      "normalized_name": "ватные палочки",
+      "name": "Ватные палочки",
+      "department_code": "hygiene",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-hygiene",
+      "icon": "➖",
+      "description": "Гигиенический расходник",
+      "sort_order": 49
+    },
+    {
+      "normalized_name": "бумажные платочки",
+      "name": "Бумажные платочки",
+      "department_code": "hygiene",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-hygiene",
+      "icon": "🤧",
+      "description": "Карманная упаковка",
+      "sort_order": 50
+    }
+  ],
+  "recipes": []
+}

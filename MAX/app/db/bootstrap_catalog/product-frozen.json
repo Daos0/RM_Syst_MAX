@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "product-frozen",
+    "kind": "product",
+    "name": "Замороженные продукты",
+    "icon": "❄️",
+    "description": "",
+    "sort_order": 5
+  },
+  "products": [
+    {
+      "normalized_name": "замороженные овощи",
+      "name": "Замороженные овощи",
+      "department_code": "frozen",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-frozen",
+      "icon": "🥦",
+      "description": "",
+      "sort_order": 41
+    },
+    {
+      "normalized_name": "пельмени",
+      "name": "Пельмени",
+      "department_code": "frozen",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-frozen",
+      "icon": "🥟",
+      "description": "",
+      "sort_order": 42
+    },
+    {
+      "normalized_name": "вареники",
+      "name": "Вареники",
+      "department_code": "frozen",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-frozen",
+      "icon": "🥟",
+      "description": "",
+      "sort_order": 43
+    },
+    {
+      "normalized_name": "замороженные ягоды",
+      "name": "Замороженные ягоды",
+      "department_code": "frozen",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-frozen",
+      "icon": "🫐",
+      "description": "",
+      "sort_order": 44
+    },
+    {
+      "normalized_name": "мороженое",
+      "name": "Мороженое",
+      "department_code": "frozen",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-frozen",
+      "icon": "🍨",
+      "description": "",
+      "sort_order": 45
+    },
+    {
+      "normalized_name": "наггетсы",
+      "name": "Наггетсы",
+      "department_code": "frozen",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-frozen",
+      "icon": "🍗",
+      "description": "",
+      "sort_order": 46
+    },
+    {
+      "normalized_name": "картофель фри",
+      "name": "Картофель фри",
+      "department_code": "frozen",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-frozen",
+      "icon": "🍟",
+      "description": "",
+      "sort_order": 47
+    },
+    {
+      "normalized_name": "блинчики замороженные",
+      "name": "Блинчики замороженные",
+      "department_code": "frozen",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-frozen",
+      "icon": "🥞",
+      "description": "",
+      "sort_order": 48
+    },
+    {
+      "normalized_name": "пицца замороженная",
+      "name": "Пицца замороженная",
+      "department_code": "frozen",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-frozen",
+      "icon": "🍕",
+      "description": "",
+      "sort_order": 49
+    },
+    {
+      "normalized_name": "рыбные палочки",
+      "name": "Рыбные палочки",
+      "department_code": "frozen",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-frozen",
+      "icon": "🐟",
+      "description": "",
+      "sort_order": 50
+    }
+  ],
+  "recipes": []
+}

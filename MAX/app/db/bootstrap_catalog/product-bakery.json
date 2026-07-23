@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "product-bakery",
+    "kind": "product",
+    "name": "Хлеб и выпечка",
+    "icon": "🥖",
+    "description": "",
+    "sort_order": 2
+  },
+  "products": [
+    {
+      "normalized_name": "хлеб",
+      "name": "Хлеб",
+      "department_code": "bakery",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-bakery",
+      "icon": "🍞",
+      "description": "",
+      "sort_order": 11
+    },
+    {
+      "normalized_name": "батон",
+      "name": "Батон",
+      "department_code": "bakery",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-bakery",
+      "icon": "🥖",
+      "description": "",
+      "sort_order": 12
+    },
+    {
+      "normalized_name": "лаваш",
+      "name": "Лаваш",
+      "department_code": "bakery",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-bakery",
+      "icon": "🫓",
+      "description": "",
+      "sort_order": 13
+    },
+    {
+      "normalized_name": "булочки",
+      "name": "Булочки",
+      "department_code": "bakery",
+      "quantity": 4,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-bakery",
+      "icon": "🥯",
+      "description": "",
+      "sort_order": 14
+    },
+    {
+      "normalized_name": "багет",
+      "name": "Багет",
+      "department_code": "bakery",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-bakery",
+      "icon": "🥖",
+      "description": "",
+      "sort_order": 15
+    },
+    {
+      "normalized_name": "хлеб цельнозерновой",
+      "name": "Хлеб цельнозерновой",
+      "department_code": "bakery",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-bakery",
+      "icon": "🍞",
+      "description": "",
+      "sort_order": 16
+    },
+    {
+      "normalized_name": "хлебцы",
+      "name": "Хлебцы",
+      "department_code": "bakery",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-bakery",
+      "icon": "🫓",
+      "description": "",
+      "sort_order": 17
+    },
+    {
+      "normalized_name": "сухари",
+      "name": "Сухари",
+      "department_code": "bakery",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-bakery",
+      "icon": "🥨",
+      "description": "",
+      "sort_order": 18
+    },
+    {
+      "normalized_name": "пирожки",
+      "name": "Пирожки",
+      "department_code": "bakery",
+      "quantity": 4,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-bakery",
+      "icon": "🥟",
+      "description": "",
+      "sort_order": 19
+    },
+    {
+      "normalized_name": "тортильи",
+      "name": "Тортильи",
+      "department_code": "bakery",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-bakery",
+      "icon": "🌯",
+      "description": "",
+      "sort_order": 20
+    }
+  ],
+  "recipes": []
+}

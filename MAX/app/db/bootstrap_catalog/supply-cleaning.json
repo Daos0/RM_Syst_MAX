@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "supply-cleaning",
+    "kind": "supply",
+    "name": "Уборка дома",
+    "icon": "🧽",
+    "description": "Бытовая химия",
+    "sort_order": 2
+  },
+  "products": [
+    {
+      "normalized_name": "средство для посуды",
+      "name": "Средство для посуды",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "supply",
+      "category_code": "supply-cleaning",
+      "icon": "🫧",
+      "description": "Для ручного мытья",
+      "sort_order": 21
+    },
+    {
+      "normalized_name": "губки для посуды",
+      "name": "Губки для посуды",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-cleaning",
+      "icon": "🧽",
+      "description": "Набор кухонных губок",
+      "sort_order": 22
+    },
+    {
+      "normalized_name": "пакеты для мусора",
+      "name": "Пакеты для мусора",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-cleaning",
+      "icon": "🗑️",
+      "description": "Для дома и выездов",
+      "sort_order": 23
+    },
+    {
+      "normalized_name": "универсальное средство",
+      "name": "Универсальное средство",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "supply",
+      "category_code": "supply-cleaning",
+      "icon": "✨",
+      "description": "Для разных поверхностей",
+      "sort_order": 24
+    },
+    {
+      "normalized_name": "средство для пола",
+      "name": "Средство для пола",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "supply",
+      "category_code": "supply-cleaning",
+      "icon": "🪣",
+      "description": "Для влажной уборки",
+      "sort_order": 25
+    },
+    {
+      "normalized_name": "хозяйственные перчатки",
+      "name": "Хозяйственные перчатки",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-cleaning",
+      "icon": "🧤",
+      "description": "Для уборки и мытья",
+      "sort_order": 30
+    },
+    {
+      "normalized_name": "средство для стекол",
+      "name": "Средство для стёкол",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-cleaning",
+      "icon": "🪟",
+      "description": "Для зеркал и окон",
+      "sort_order": 26
+    },
+    {
+      "normalized_name": "средство для туалета",
+      "name": "Средство для туалета",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-cleaning",
+      "icon": "🚽",
+      "description": "Для сантехники",
+      "sort_order": 27
+    },
+    {
+      "normalized_name": "средство для кухни",
+      "name": "Средство для кухни",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-cleaning",
+      "icon": "🧴",
+      "description": "Против жира и налёта",
+      "sort_order": 28
+    },
+    {
+      "normalized_name": "салфетки из микрофибры",
+      "name": "Салфетки из микрофибры",
+      "department_code": "household",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-cleaning",
+      "icon": "🟦",
+      "description": "Для сухой и влажной уборки",
+      "sort_order": 29
+    }
+  ],
+  "recipes": []
+}

@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "product-pantry",
+    "kind": "product",
+    "name": "Бакалея и консервы",
+    "icon": "🌾",
+    "description": "",
+    "sort_order": 6
+  },
+  "products": [
+    {
+      "normalized_name": "макароны",
+      "name": "Макароны",
+      "department_code": "grocery",
+      "quantity": 2,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-pantry",
+      "icon": "🍝",
+      "description": "",
+      "sort_order": 51
+    },
+    {
+      "normalized_name": "рис",
+      "name": "Рис",
+      "department_code": "grocery",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-pantry",
+      "icon": "🍚",
+      "description": "",
+      "sort_order": 52
+    },
+    {
+      "normalized_name": "мука",
+      "name": "Мука",
+      "department_code": "grocery",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-pantry",
+      "icon": "🌾",
+      "description": "",
+      "sort_order": 53
+    },
+    {
+      "normalized_name": "сахар",
+      "name": "Сахар",
+      "department_code": "grocery",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-pantry",
+      "icon": "🧂",
+      "description": "",
+      "sort_order": 54
+    },
+    {
+      "normalized_name": "гречка",
+      "name": "Гречка",
+      "department_code": "grocery",
+      "quantity": 1,
+      "unit": "кг",
+      "kind": "product",
+      "category_code": "product-pantry",
+      "icon": "🌾",
+      "description": "",
+      "sort_order": 55
+    },
+    {
+      "normalized_name": "овсянка",
+      "name": "Овсянка",
+      "department_code": "grocery",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-pantry",
+      "icon": "🥣",
+      "description": "",
+      "sort_order": 56
+    },
+    {
+      "normalized_name": "фасоль",
+      "name": "Фасоль",
+      "department_code": "grocery",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-pantry",
+      "icon": "🫘",
+      "description": "",
+      "sort_order": 57
+    },
+    {
+      "normalized_name": "соль",
+      "name": "Соль",
+      "department_code": "grocery",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "product",
+      "category_code": "product-pantry",
+      "icon": "🧂",
+      "description": "",
+      "sort_order": 58
+    },
+    {
+      "normalized_name": "подсолнечное масло",
+      "name": "Подсолнечное масло",
+      "department_code": "grocery",
+      "quantity": 1,
+      "unit": "л",
+      "kind": "product",
+      "category_code": "product-pantry",
+      "icon": "🌻",
+      "description": "",
+      "sort_order": 59
+    },
+    {
+      "normalized_name": "томатная паста",
+      "name": "Томатная паста",
+      "department_code": "grocery",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "product",
+      "category_code": "product-pantry",
+      "icon": "🥫",
+      "description": "",
+      "sort_order": 60
+    }
+  ],
+  "recipes": []
+}

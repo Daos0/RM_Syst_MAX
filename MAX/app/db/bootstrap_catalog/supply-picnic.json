@@ -1,0 +1,133 @@
+{
+  "category": {
+    "code": "supply-picnic",
+    "kind": "supply",
+    "name": "Пикник и гриль",
+    "icon": "🔥",
+    "description": "Товары для дома и отдыха",
+    "sort_order": 5
+  },
+  "products": [
+    {
+      "normalized_name": "уголь для мангала",
+      "name": "Уголь для мангала",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-picnic",
+      "icon": "🪨",
+      "description": "Для шашлыка и гриля",
+      "sort_order": 51
+    },
+    {
+      "normalized_name": "жидкость для розжига",
+      "name": "Жидкость для розжига",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "supply",
+      "category_code": "supply-picnic",
+      "icon": "🔥",
+      "description": "Для быстрого розжига",
+      "sort_order": 52
+    },
+    {
+      "normalized_name": "спички",
+      "name": "Спички",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-picnic",
+      "icon": "🕯️",
+      "description": "Не забудьте запас",
+      "sort_order": 53
+    },
+    {
+      "normalized_name": "шампуры",
+      "name": "Шампуры",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-picnic",
+      "icon": "🍢",
+      "description": "Набор для шашлыка",
+      "sort_order": 54
+    },
+    {
+      "normalized_name": "решетка для гриля",
+      "name": "Решётка для гриля",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-picnic",
+      "icon": "♨️",
+      "description": "Для мяса и овощей",
+      "sort_order": 55
+    },
+    {
+      "normalized_name": "деревянные шпажки",
+      "name": "Деревянные шпажки",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "уп.",
+      "kind": "supply",
+      "category_code": "supply-picnic",
+      "icon": "🥢",
+      "description": "Для закусок и овощей",
+      "sort_order": 56
+    },
+    {
+      "normalized_name": "скатерть для пикника",
+      "name": "Скатерть для пикника",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "supply",
+      "category_code": "supply-picnic",
+      "icon": "🏕️",
+      "description": "Для стола или пледа",
+      "sort_order": 57
+    },
+    {
+      "normalized_name": "средство от насекомых",
+      "name": "Средство от насекомых",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "supply",
+      "category_code": "supply-picnic",
+      "icon": "🦟",
+      "description": "Для отдыха на природе",
+      "sort_order": 58
+    },
+    {
+      "normalized_name": "зажигалка",
+      "name": "Зажигалка",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "supply",
+      "category_code": "supply-picnic",
+      "icon": "🔥",
+      "description": "Для мангала и костра",
+      "sort_order": 59
+    },
+    {
+      "normalized_name": "щипцы для гриля",
+      "name": "Щипцы для гриля",
+      "department_code": "other",
+      "quantity": 1,
+      "unit": "шт.",
+      "kind": "supply",
+      "category_code": "supply-picnic",
+      "icon": "🍖",
+      "description": "Для безопасной готовки",
+      "sort_order": 60
+    }
+  ],
+  "recipes": []
+}

@@ -1,0 +1,643 @@
+{
+  "category": {
+    "code": "dish-baking",
+    "kind": "dish",
+    "name": "Выпечка и десерты",
+    "icon": "🥧",
+    "description": "",
+    "sort_order": 7
+  },
+  "products": [],
+  "recipes": [
+    {
+      "code": "charlotte",
+      "category_code": "dish-baking",
+      "name": "Шарлотка",
+      "normalized_name": "шарлотка",
+      "icon": "🥧",
+      "description": "Яблочный пирог",
+      "yield_label": "Порции",
+      "yield_quantity": 8,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 61,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "С яблоками",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "яблоки",
+              "quantity": 1,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "apple-pie",
+      "category_code": "dish-baking",
+      "name": "Яблочный пирог",
+      "normalized_name": "яблочный пирог",
+      "icon": "🥧",
+      "description": "Домашняя выпечка к чаю",
+      "yield_label": "Порции",
+      "yield_quantity": 8,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 62,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "яблоки",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 2,
+              "unit": "уп.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "honey-cake",
+      "category_code": "dish-baking",
+      "name": "Медовик",
+      "normalized_name": "медовик",
+      "icon": "🍰",
+      "description": "Слоёный домашний торт",
+      "yield_label": "Порции",
+      "yield_quantity": 8,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 63,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 3,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.25,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сметана",
+              "quantity": 3,
+              "unit": "шт.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "мед",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "muffins",
+      "category_code": "dish-baking",
+      "name": "Маффины",
+      "normalized_name": "маффины",
+      "icon": "🧁",
+      "description": "Мягкие порционные кексы",
+      "yield_label": "Количество",
+      "yield_quantity": 8,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 64,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.25,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "cookies",
+      "category_code": "dish-baking",
+      "name": "Домашнее печенье",
+      "normalized_name": "домашнее печенье",
+      "icon": "🍪",
+      "description": "Рассыпчатое сливочное",
+      "yield_label": "Количество",
+      "yield_quantity": 12,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 65,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.35,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 2,
+              "unit": "уп.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 1,
+              "unit": "шт.",
+              "sort_order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yeast-pies",
+      "category_code": "dish-baking",
+      "name": "Пирожки с картошкой",
+      "normalized_name": "пирожки с картошкой",
+      "icon": "🥟",
+      "description": "Дрожжевая выпечка",
+      "yield_label": "Количество",
+      "yield_quantity": 12,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 66,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.3,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "картофель",
+              "quantity": 0.8,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "лук",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "cabbage-pie",
+      "category_code": "dish-baking",
+      "name": "Пирог с капустой",
+      "normalized_name": "пирог с капустой",
+      "icon": "🥧",
+      "description": "Сытный домашний пирог",
+      "yield_label": "Порции",
+      "yield_quantity": 8,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 67,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.4,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "капуста",
+              "quantity": 0.7,
+              "unit": "кг",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.25,
+              "unit": "л",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mannik",
+      "category_code": "dish-baking",
+      "name": "Манник",
+      "normalized_name": "манник",
+      "icon": "🍰",
+      "description": "Простой пирог на кефире",
+      "yield_label": "Порции",
+      "yield_quantity": 8,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 68,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "манная крупа",
+              "quantity": 0.25,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "кефир",
+              "quantity": 0.5,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.2,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 3,
+              "unit": "шт.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chocolate-cake",
+      "category_code": "dish-baking",
+      "name": "Шоколадный кекс",
+      "normalized_name": "шоколадный кекс",
+      "icon": "🍫",
+      "description": "Насыщенный десерт",
+      "yield_label": "Порции",
+      "yield_quantity": 8,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 69,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "шоколад",
+              "quantity": 2,
+              "unit": "шт.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.18,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 3,
+              "unit": "шт.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 2,
+              "unit": "уп.",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vatrushki",
+      "category_code": "dish-baking",
+      "name": "Ватрушки с творогом",
+      "normalized_name": "ватрушки с творогом",
+      "icon": "🥯",
+      "description": "Мягкие и ароматные",
+      "yield_label": "Количество",
+      "yield_quantity": 8,
+      "yield_unit": "шт.",
+      "yield_step": 2,
+      "sort_order": 70,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.25,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "творог",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 3,
+              "unit": "шт.",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.15,
+              "unit": "кг",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "napoleon-cake",
+      "category_code": "dish-baking",
+      "name": "Торт «Наполеон»",
+      "normalized_name": "торт «наполеон»",
+      "icon": "🍰",
+      "description": "Слоёный торт с заварным кремом",
+      "yield_label": "Порции",
+      "yield_quantity": 8,
+      "yield_unit": "порц.",
+      "yield_step": 1,
+      "sort_order": 93,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.6,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 2,
+              "unit": "уп.",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 4,
+              "unit": "шт.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 1.2,
+              "unit": "л",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "сахар",
+              "quantity": 0.3,
+              "unit": "кг",
+              "sort_order": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "adjarian-khachapuri",
+      "category_code": "dish-baking",
+      "name": "Хачапури по-аджарски",
+      "normalized_name": "хачапури по-аджарски",
+      "icon": "🥧",
+      "description": "Лодочки с сулугуни и яйцом",
+      "yield_label": "Количество",
+      "yield_quantity": 4,
+      "yield_unit": "шт.",
+      "yield_step": 1,
+      "sort_order": 94,
+      "variants": [
+        {
+          "code": "classic",
+          "name": "Классический",
+          "sort_order": 1,
+          "ingredients": [
+            {
+              "product_normalized_name": "мука",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 1
+            },
+            {
+              "product_normalized_name": "молоко",
+              "quantity": 0.25,
+              "unit": "л",
+              "sort_order": 2
+            },
+            {
+              "product_normalized_name": "дрожжи сухие",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 3
+            },
+            {
+              "product_normalized_name": "сыр сулугуни",
+              "quantity": 0.5,
+              "unit": "кг",
+              "sort_order": 4
+            },
+            {
+              "product_normalized_name": "яйца",
+              "quantity": 5,
+              "unit": "шт.",
+              "sort_order": 5
+            },
+            {
+              "product_normalized_name": "сливочное масло",
+              "quantity": 1,
+              "unit": "уп.",
+              "sort_order": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
